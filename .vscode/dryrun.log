@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/nicj/go/src/github.com/shipyard-run/button-component'
+npm run publish:npm
+npm publish --access public
+make: Leaving directory '/home/nicj/go/src/github.com/shipyard-run/button-component'
+ 
