@@ -1,6 +1,6 @@
 {
   "name": "@shipyardrun/components",
-  "version": "0.1.0",
+  "version": "0.1.6",
   "private": false,
   "repository": {
     "type": "git",
@@ -13,6 +13,8 @@
     "button",
     "react-component"
   ],
+  "main": "dist/index.js",
+  "module": "es/index.js",
   "author": "erik veld <eveld@hashicorp.com>",
   "license": "MIT",
   "bugs": {
