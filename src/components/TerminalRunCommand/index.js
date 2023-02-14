@@ -1,11 +1,12 @@
+import PubSub from 'pubsub-js';
 import React, {Children} from "react"
 import PropTypes from 'prop-types'
 import Button from '@mui/material/Button';
 import TerminalIcon from '@mui/icons-material/Terminal';
 
-import "./VSCodeTerminal.css"
+import "./index.css"
 
-class VSCodeTerminal extends React.Component {
+class TerminalRunCommand extends React.Component {
   constructor(props) {
     super(props);
 
@@ -27,7 +28,7 @@ class VSCodeTerminal extends React.Component {
   }
 
   onClick() {
-    window.parent.window.postMessage({"command": this.state.command, "name": this.props.target, "function": "openTerminal"}, "*")
+    PubSub.publish('terminal.runCommand', {id: this.props.target, command: this.state.command});
   }
 
   render() {
@@ -43,9 +44,9 @@ class VSCodeTerminal extends React.Component {
   }
 }
 
-export default VSCodeTerminal
+export default TerminalRunCommand
 
-VSCodeTerminal.propTypes = {
+TerminalRunCommand.propTypes = {
   target: PropTypes.string.isRequired,
   text: PropTypes.string
 }

@@ -1,6 +1,6 @@
 {
   "name": "@shipyardrun/components",
-  "version": "0.1.6",
+  "version": "0.2.1",
   "private": false,
   "repository": {
     "type": "git",
@@ -22,12 +22,24 @@
   },
   "homepage": "https://github.com/shipyard-run/docusaurus-component",
   "dependencies": {
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/material": "^5.9.2",
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^10.4.1",
+    "pubsub-js": "^1.9.4",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-scripts": "3.4.0"
+    "react-scripts": "^5.0.1",
+    "reconnecting-websocket": "^4.4.0",
+    "xterm": "^4.15.0",
+    "xterm-addon-attach": "^0.5.0",
+    "xterm-addon-fit": "^0.3.0",
+    "xterm-addon-search": "^0.5.0",
+    "xterm-addon-web-links": "^0.2.1",
+    "xterm-addon-webgl": "^0.5.1"
   },
   "scripts": {
     "dev": "styleguidist server",
@@ -60,6 +72,6 @@
   "devDependencies": {
     "@babel/cli": "^7.16.0",
     "@babel/preset-react": "^7.16.5",
-    "react-styleguidist": "^11.1.7"
+    "react-styleguidist": "^13.0.0"
   }
 }

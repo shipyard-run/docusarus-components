@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Thu Jul 28 15:40:47 2022
+# Make data base, printed on Sat Jul 30 09:32:16 2022
 
 # Variables
 
@@ -45,13 +45,11 @@ GO111MODULE = on
 # 'override' directive
 GNUMAKEFLAGS := 
 # environment
-tmux_version = 2.6
-# environment
 VSCODE_CWD = /mnt/c/Users/jacks/AppData/Local/Programs/Microsoft VS Code
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
 # environment
-PATH = /home/nicj/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/bin/remote-cli:/home/nicj/.wasmtime/bin:/home/nicj/.tfenv/bin:/home/nicj/bin:/home/nicj/go/bin:/usr/local/go/bin:/home/nicj/.yarn/bin:/home/nicj/.config/yarn/global/node_modules/.bin:/home/nicj/.wasmtime/bin:/home/nicj/.tfenv/bin:/home/nicj/bin:/home/nicj/go/bin:/usr/local/go/bin:/home/nicj/.yarn/bin:/home/nicj/.config/yarn/global/node_modules/.bin:/home/nicj/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.6/libnvvp:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler:/mnt/c/Windows/System32:/mnt/c/Windows:/mnt/c/Windows/System32/wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/GnuPG/bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/gradle/bin:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Go/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2022.1.1/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Users/jacks/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/jacks/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/jacks/go/bin:/home/nicj/.antigen/bundles/robbyrussell/oh-my-zsh/lib:/home/nicj/.antigen/bundles/zsh-users/zsh-syntax-highlighting:/home/nicj/.antigen/bundles/denysdovhan/spaceship-prompt:/home/nicj/.local/bin:/opt/gradle-6.3/bin:/usr/local/apache-maven-3.6.3/bin:/usr/lib/jvm/java-17-oracle//bin:/home/nicj/.fzf/bin:/home/nicj/.local/bin:/home/nicj/.yarn/bin:/opt/gradle-6.3/bin:/usr/local/apache-maven-3.6.3/bin:/usr/lib/jvm/java-17-oracle//bin
+PATH = /home/nicj/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/bin/remote-cli:/home/nicj/.wasmtime/bin:/home/nicj/.tfenv/bin:/home/nicj/bin:/home/nicj/go/bin:/usr/local/go/bin:/home/nicj/.yarn/bin:/home/nicj/.config/yarn/global/node_modules/.bin:/home/nicj/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python310/Scripts/:/mnt/c/Python310/:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.6/libnvvp:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler:/mnt/c/Windows/System32:/mnt/c/Windows:/mnt/c/Windows/System32/wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/GnuPG/bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/gradle/bin:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Go/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2022.1.1/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Program Files/nodejs/:/mnt/c/Users/jacks/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/jacks/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/jacks/go/bin:/mnt/c/Users/jacks/AppData/Roaming/npm:/home/nicj/.antigen/bundles/robbyrussell/oh-my-zsh/lib:/home/nicj/.antigen/bundles/zsh-users/zsh-syntax-highlighting:/home/nicj/.antigen/bundles/denysdovhan/spaceship-prompt:/home/nicj/.local/bin:/home/nicj/.yarn/bin:/opt/gradle-6.3/bin:/usr/local/apache-maven-3.6.3/bin:/usr/lib/jvm/java-17-oracle//bin:/home/nicj/.fzf/bin
 # environment
 GPG_AGENT_SOCK = /home/nicj/.gnupg/S.gpg-agent
 # environment
@@ -64,7 +62,6 @@ XDG_RUNTIME_DIR = /mnt/wslg/runtime-dir
 THREE_SCALE_USER_TOKEN = 207c527cfc2a6b8dcf4fa43ad7a976da
 # environment
 SPACESHIP_VERSION = 3.14.0
- 
 # environment
 GOPATH = /home/nicj/go
 # environment
@@ -84,23 +81,19 @@ DISPLAY = :0
 # environment
 VISUAL = nvim
 # environment
-TMUX_PANE = %3
-# environment
 PWD = /home/nicj/go/src/github.com/shipyard-run/button-component
 # environment
-VSCODE_IPC_HOOK_CLI = /mnt/wslg/runtime-dir/vscode-ipc-2ebb74c6-c445-4a7d-88f1-08448ef2f5d8.sock
+VSCODE_IPC_HOOK_CLI = /mnt/wslg/runtime-dir/vscode-ipc-7bfca133-0837-4d6d-b577-076070d75864.sock
 # environment
 WSL_INTEROP = /run/WSL/8_interop
 # environment
 PULSE_SERVER = /mnt/wslg/PulseServer
 # environment
-WT_SESSION = 6c010d7b-2ff7-429d-a0cc-b621312966ae
+WT_SESSION = da64fa1b-76eb-4a17-99a3-49cb29fba0eb
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
 HOME = /home/nicj
-# environment
-TMUX_PLUGIN_MANAGER_PATH = /home/nicj/.tmux/plugins/
 # environment
 LOGNAME = nicj
 # environment
@@ -121,11 +114,10 @@ VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 MAKELEVEL := 0
 # default
 MAKE = $(MAKE_COMMAND)
- 
 # default
 MAKECMDGOALS := all
 # environment
-SHLVL = 2
+SHLVL = 1
 # environment
 JAVA_HOME = /usr/lib/jvm/java-17-oracle/
 # default
@@ -163,8 +155,6 @@ MFLAGS = -pqrR
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
 # environment
-TMUX = /tmp/tmux-1000/default,1522,1
-# environment
 RECOMMENDER_API_URL = https://gw.api.openshift.io//api/v2
 # environment
 BROWSER = chrome
@@ -199,11 +189,11 @@ WAYLAND_DISPLAY = wayland-0
 # environment
 LANG = C
 # environment
-TERM = tmux-256color
+TERM = xterm-256color
 # environment
 WSL_DISTRO_NAME = Ubuntu
 # variable set hash-table stats:
-# Load=95/1024=9%, Rehash=0, Collisions=6/123=5%
+# Load=91/1024=9%, Rehash=0, Collisions=6/119=5%
 
 # Pattern-specific Variable Values
 
@@ -287,6 +277,7 @@ publish:
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
+ 
 #  recipe to execute (from 'Makefile', line 9):
 	npm publish --access public
 
@@ -304,6 +295,6 @@ publish:
 # strcache performance: lookups = 35 / hit rate = 40%
 # hash-table stats:
 # Load=21/8192=0%, Rehash=0, Collisions=1/35=3%
-# Finished Make data base on Thu Jul 28 15:40:47 2022
+# Finished Make data base on Sat Jul 30 09:32:16 2022
 
  
